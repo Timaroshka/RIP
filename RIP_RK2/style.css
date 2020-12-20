@@ -1,0 +1,38 @@
+body {
+    background: rgb(55, 184, 184);
+    color: white;
+    font-size: 150;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: left top;
+}
+
+.RK2 { 
+width: 600px;
+border: 1px solid #427eec;
+border-collapse: collapse;
+border-spacing: 0;
+border: 2px solid #ffffff;
+}
+.RK2 th {
+background: #427eec;
+color: white; 
+}
+.RK2 td, .lux th { 
+border-bottom: 1px solid rgb(255, 255, 255);
+border: 1px solid rgb(255, 255, 255);
+text-align: center;
+
+}
+.RK2 td, .lux th {
+padding: 4px;
+}
+
+.RK2 tr:nth-child(odd){
+background: #427eec;
+}
+
+.RK2 tr:nth-child(even){
+background: #76e6f5;
+}
